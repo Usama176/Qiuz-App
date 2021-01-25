@@ -1,0 +1,249 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: #5352ed;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 550px;
+    border: 1px solid #5352ed;
+    border-radius: 5px;
+    padding: 10px 30px;
+    box-shadow: 0px 0px 7px 10px rgba(0, 0, 0, 0.102);
+    background: white;
+}
+
+.container .text-div h1 {
+    color: #5352ed;
+    text-align: center;
+    font-weight: 400;
+}
+
+.container input,
+.container button {
+    display: block;
+    width: 100%;
+    color: #5352ed;
+}
+
+.container input {
+    margin-bottom: 20px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #5352ed;
+    text-align: center;
+    font-size: 23px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.container input::placeholder {
+    color: #5352ed;
+    font-size: smaller;
+    font-weight: lighter;
+}
+
+.container button {
+    padding: 10px 0;
+    border: 2px solid #5352ed;
+    border-radius: 40px;
+    background: transparent;
+    font-size: 22px;
+    transition: 0.4s all;
+}
+
+
+/* Focus Effect */
+
+.container input:focus,
+.container button:focus {
+    outline: none;
+}
+
+.container input:focus {
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.102);
+}
+
+/* Hover effect */
+
+.container button:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+    background: #5352ed;
+    color: #ffffff;
+    box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 0.178);
+}
+
+
+/* ------------------------------Now Styling Quiz.html------------------------------------- */
+
+.quiz-container {
+    display: grid;
+    grid-template-rows: 65px auto;
+    width: 800px;
+    height: 500px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 7px rgba(0, 0, 0, 0.11);
+}
+
+.quiz-container .q-header {
+    display: flex;
+    justify-content: space-between;
+    background: #ffffff;
+    border: none;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.144);
+    z-index: 1;
+}
+
+.q-header .q-user {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.q-header .q-timer {
+    display: flex;
+    align-items: center;
+    background: #7d5fff;
+    padding: 0 30px;
+    border-top-right-radius: 5px;
+    color: #ffffff;
+}
+
+.quiz-container .q-body {
+    background: whitesmoke;
+    border: none;
+    border-radius: 0 0 5px 5px;
+    padding: 30px;
+    height: 450px;
+}
+.q-body #q-display {
+    overflow: scroll;
+    height: 355px;
+    margin-bottom: 5px;
+}
+.q-body #q-display::-webkit-scrollbar{
+    display: none;
+}
+.q-body .option-list {
+    margin: 25px 0;
+}
+
+.option-list .option {
+    background: #fff;
+    width: 300px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border: 2px solid transparent;
+    border-radius: 50px;
+}
+
+.option-list .option:hover {
+    cursor: pointer;
+    border: 2px solid #5352ed;
+    color: #5352ed;
+    transition: 0.2s;
+}
+
+
+/* Making an Active class for toggle option */
+
+.active-option {
+    background: #7d5fff !important;
+    color: #fff !important;
+    border: 2px solid #7d5fff !important;
+    transition: 0.4s;
+}
+
+.q-body .btn-nxt {
+    background: #ffffff;
+    color: #5352ed;
+    border: 2px solid #5352ed;
+    border-radius: 50px;
+    padding: 15px 35px;
+    transition: 0.4s all;
+}
+
+.q-body .btn-nxt:focus {
+    outline: none;
+}
+
+.q-body .btn-nxt:hover {
+    background: #5352ed;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.13);
+}
+
+.final-div {
+    background-color: #fff;
+    width: 550px;
+    height: 550px;
+    padding: 25px;
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 60% auto;
+    border: none;
+    border-radius: 5px;
+}
+
+.final-div .award-icon {
+    text-align: center !important;
+    font-size: 250px;
+    color: #5352ed;
+    margin-left: 10px;
+}
+
+.final-div .result-div {
+    padding: 30px 5px;
+    text-align: center;
+    color: #5352ed;
+    border: 3px solid #7d5fff;
+    border-radius: 10px;
+}
+
+.final-div .result-div p {
+    margin-top: 10px;
+}
+
+.retakeBtn {
+    margin-top: 10px;
+    background: #ffffff;
+    color: #5352ed;
+    border: 2px solid #5352ed;
+    border-radius: 50px;
+    padding: 15px 35px;
+    transition: 0.4s all;
+    font-size: medium;
+}
+
+.retakeBtn:focus {
+    outline: none;
+}
+
+.retakeBtn:hover {
+    background: #5352ed;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.13);
+}

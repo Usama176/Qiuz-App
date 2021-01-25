@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+
+<body>
+    <div class="wrapper">
+        <div class="quiz-container">
+            <div class="q-header">
+                <div class="q-user">
+                    <h3>Welcome! <span class="user-name"></span></h3>
+                </div>
+                <div class="q-timer">
+                    <h3><span class="time"></h3>
+                </div>
+            </div>
+            <div class="q-body">
+                <div id="q-display">
+
+                </div>
+                <button class="btn-nxt" onclick="next()">Next Question</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Linking js -->
+    <script src="js/app.js"></script>
+    <script src="js/quiz.js"></script>
+    <script src="js/end.js"></script>
+    <script src="js/timer.js"></script>
+</body>
+
+</html>
