@@ -127,13 +127,6 @@ function show(count) {
     <li class="option">${questions[count].options[1]}</li>
     <li class="option">${questions[count].options[2]}</li>
     <li class="option">${questions[count].options[3]}</li>
-    <li class="option">${questions[count].options[4]}</li>
-    <li class="option">${questions[count].options[5]}</li>
-    <li class="option">${questions[count].options[6]}</li>
-    <li class="option">${questions[count].options[7]}</li>
-    <li class="option">${questions[count].options[8]}</li>
-    <li class="option">${questions[count].options[9]}</li>
-    <li class="option">${questions[count].options[10]}</li>
  </ul>
  `;
     //  Now enabling toggle function for options
