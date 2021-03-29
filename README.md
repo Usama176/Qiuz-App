@@ -1,5 +1,6 @@
-![quiz-app-1](https://user-images.githubusercontent.com/63497162/112855835-a588d880-90c8-11eb-8d0a-04213264b336.png)
-![quiz-app-2](https://user-images.githubusercontent.com/63497162/112855862-ae79aa00-90c8-11eb-8179-e9e9230a317b.png)
-![quiz-app-3](https://user-images.githubusercontent.com/63497162/112855884-b33e5e00-90c8-11eb-8aa9-d9f9dcc10143.png)
+![screencapture-file-mnt-6E2E98082E97C78B-Js-Projects-Quiz-App-index-html-2021-03-29-20_32_22](https://user-images.githubusercontent.com/63497162/112861134-f6e79680-90cd-11eb-86d9-be7e60e6f8d3.png)
+![screencapture-file-mnt-6E2E98082E97C78B-Js-Projects-Quiz-App-quiz-html-2021-03-29-20_31_16](https://user-images.githubusercontent.com/63497162/112861152-fc44e100-90cd-11eb-9497-7b19ff55e0b1.png)
+![screencapture-file-mnt-6E2E98082E97C78B-Js-Projects-Quiz-App-end-html-2021-03-29-20_32_04](https://user-images.githubusercontent.com/63497162/112861181-0070fe80-90ce-11eb-80ce-252f2691aa44.png)
+
 # Qiuz-App
 this is a Quiz Web Application w/c takes your name counts your score and note your time and stores in local storage and then shows it at the end in a result card.
